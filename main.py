@@ -33,5 +33,12 @@ def power(x, y):
     return x**y
 
 
+def sqrt(x):
+    """
+    Finds the square root of x.
+    """
+    return x**0.5
+
+
 if __name__ == "__main__":
-    print(power(15, 5))
+    print(sqrt(144))
