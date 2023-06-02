@@ -43,7 +43,7 @@ def median(data):
 
 def mode(data):
     """
-    Finds the datapoint that occurs the most. Returns a touple that shows tells you the number that occurs the most and how many times it occurs. If
+    Finds the datapoint that occurs the most. Returns a touple that shows tells you the number that occurs the most and how many times it occurs. If there is no mode, the functions returns None.
     """
     max_count = (0, 0)
     for i in data:
@@ -57,5 +57,6 @@ def mode(data):
         return max_count
 
 
-data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(mode(data))
+if __name__ == "__main__":
+   
+
